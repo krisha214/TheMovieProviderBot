@@ -17,6 +17,12 @@ API_ID = int(environ.get('API_ID', '23271365'))
 API_HASH = environ.get('API_HASH', '59a8393f1c17083798b42333d16ff224')
 BOT_TOKEN = environ.get('BOT_TOKEN', "8190411902:AAEbw3ctiihWVTDDOSs8Wv4ExubznyjNH8M")
 
+# MongoDB information
+DATABASE_URI = environ.get('DATABASE_URI', 'mongodb+srv://kisakc079:<QbZkAsk0oXhBJOIB>@cluster0.nznop.mongodb.net/')
+DATABASE_NAME = environ.get('DATABASE_NAME', 'kisakc079')
+COLLECTION_NAME = environ.get('COLLECTION_NAME', 'kisakc079')
+
+
 # Bot settings
 CACHE_TIME = int(environ.get('CACHE_TIME', 300))
 USE_CAPTION_FILTER = bool(environ.get('USE_CAPTION_FILTER', True))
